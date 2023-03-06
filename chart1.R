@@ -21,7 +21,11 @@ chart1 <- ggplot(combined_data, aes(x = CheckoutYear, color = MaterialType)) +
   geom_line(aes(y = Ebook_total, color = "EBOOK")) +
   geom_line(aes(y = Audiobook_total, color = "AUDIOBOOK")) +
   scale_x_continuous(breaks = seq(2013, 2023, 1)) +
-  labs(title = "Checkouts of Percy Jackson & Olympian series EBooks & Audiobooks from 2013-2023",
-       x = "Year",
-       y = "Number of Checkouts",
-       color = "MaterialType")
+    labs(title = "Checkouts of Percy Jackson & Olympian series EBooks & Audiobooks from 2013-2023",
+         x = "Year",
+         y = "Number of Checkouts",
+         color = "MaterialType") 
+
+
+
+
