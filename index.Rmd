@@ -78,7 +78,7 @@ This chart shows the number of Ebook and Audiobook checkouts for the Percy Jacks
 I chose to create this data visualization because for digital checkouts theres ebook or audiobook for the series and I was curious which material type had more checkouts. I thought that Ebook would have significantly more checkouts than audiobook because I thought that there would be more reading than listening and I was surprised how both had similar trends until post 2020, which is surprising still since they were really similar before. 
 
 ### Second Trends Over Time Chart
--How many checkouts were there for each book in the series from 2012-2033?
+-How many checkouts were there for each book in the series from 2012-2022?
 ``````{r chart2.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8}
 source("chart2.R")
 chart2
