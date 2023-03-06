@@ -1,9 +1,11 @@
+#Question: Which series that Rick Riordan wrote: percy jackson and the olympians and kane chronices, had more ebook checkouts?
 #load libraries
 library("dplyr")
 library("ggplot2")
 
 #load data into variable called A3_series_data
 A3_series_data <- read.csv("Percy_Jackson_Riordan.csv")
+##load data into variable called A3_choice_data
 A3_choice_data <- read.csv("Kane_Riordan.csv")
 #filter only the books with material type Ebook 
 A3_series_data <- A3_series_data %>%
