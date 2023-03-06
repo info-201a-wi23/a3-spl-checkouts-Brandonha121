@@ -2,11 +2,10 @@
 #load libraries
 library("dplyr")
 library("ggplot2")
-
 #load data into variable called A3_series_data
-A3_series_data <- read.csv("Percy_Jackson_Riordan.csv")
+A3_series_data <- read.csv("Percy_Jackson.csv")
 ##load data into variable called A3_choice_data
-A3_choice_data <- read.csv("Kane_Riordan.csv")
+A3_choice_data <- read.csv("Kane_Chronicles.csv")
 #filter only the books with material type Ebook 
 A3_series_data <- A3_series_data %>%
   filter(MaterialType == "EBOOK")
@@ -28,8 +27,8 @@ combined_data <- left_join(PercyJ_checkouts, Kane_checkouts, by = "CheckoutYear"
 chart3 <- ggplot(combined_data, aes(x = CheckoutYear, color = "Legend")) +
   geom_line(aes(y = Olympians_checkouts, color = "Percy Jackson & the Olympians series")) +
   geom_line(aes(y = Chronicles_checkouts, color = "Kane Chronicles series")) +
-  scale_x_continuous(breaks = seq(2013, 2023, 1)) +
-  labs(title = "Ebook checkouts of Percy Jackson & the Olympian series & Kane chronicle series from 2013-2023",
+  scale_x_continuous(breaks = seq(2012, 2022, 1)) +
+  labs(title = "Ebook checkouts of Percy Jackson & the Olympian series & Kane chronicle series from 2012-2022",
        x = "Year",
        y = "Number of Checkouts",
        color = "Series Title") 

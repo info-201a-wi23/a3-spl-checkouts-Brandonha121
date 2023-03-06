@@ -4,7 +4,7 @@ library("dplyr")
 library("ggplot2")
 
 #load data into variable called A3_series_data
-A3_series_data <- read.csv("Percy_Jackson_Riordan.csv")
+A3_series_data <- read.csv("Percy_Jackson.csv")
 
 #Filter only ebooks
 A3_series_data <- A3_series_data %>% 
@@ -47,8 +47,8 @@ chart2 <- ggplot(combined_data, aes(x = CheckoutYear, color = Title)) +
   geom_line(aes(y = Title3_total, color = "The Titan's Curse, Book 3")) +
   geom_line(aes(y = Title4_total, color = "The Battle of the Labyrinth, Book 4")) +
   geom_line(aes(y = Title5_total, color = "The Last Olympian, Book 5")) +
-  scale_x_continuous(breaks = seq(2013, 2023, 1)) +
-  labs(title = "Checkouts of Percy Jackson and the Olympians Series (2013-2023)",
+  scale_x_continuous(breaks = seq(2012, 2022, 1)) +
+  labs(title = "Checkouts of Percy Jackson and the Olympians Series (2012-2022)",
        x = "Year",
        y = "Number of Checkouts",
        color = "Book Titles")

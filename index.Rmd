@@ -5,7 +5,7 @@ output: html_document
 
 ### Introduction
 
-The dataset chosen analyzes checkouts made in the Seattle Public Library Systems of the Percy Jackson and the Olympian series by Rick Riordan from 2013-2023 and specifically digital checkouts of the books. This report will analyze the books published by Rick Riordan specifically the "Percy Jackson and the Olympians" series that he has written, the series which contains books 1-5. The report will examine and compare the material type checkouts of the series, compare each Ebook within the series and the number of checkouts for each, and lastly compare the total amount of checkouts of the series to the average amount of checkouts of the series.
+The dataset chosen analyzes checkouts made in the Seattle Public Library Systems of the Percy Jackson and the Olympian series by Rick Riordan from 2012-2022 and specifically digital checkouts of the books. This report will analyze the books published by Rick Riordan specifically the "Percy Jackson and the Olympians" series that he has written, the series which contains books 1-5. The report will examine and compare the material type checkouts of the series, compare each Ebook within the series and the number of checkouts for each, and lastly compare the total amount of checkouts of the series to the average amount of checkouts of the series.
 
 ### Summary Information
 
