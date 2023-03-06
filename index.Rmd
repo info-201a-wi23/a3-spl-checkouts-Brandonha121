@@ -26,15 +26,15 @@ The year with the lowest number of checkouts for the series is 2012 with a total
 
 For book 1: the lightning thief the average amount of checkouts is 23, for book 2: the sea of monsters the average amount of checkouts is 14, for book 3: the titan's curse the average amount of checkouts is 11, for book 4: the battle of labyrinth the average amount of checkouts is 9, and book 5: the last olympian has an average of 11 checkouts. 
 
--What is the total number of checkouts for the series per month?
+- What is the total number of checkouts for the series per month?
 
 There was a total of 1,464 checkouts for month 1, total of 1,318 checkouts for month 2, total of 1,363 checkouts for month 3, total of 1,363 checkouts for month 4, total of 1,491 checkouts for month 5, total of 1,476 checkouts for month 6, total of 1,470 checkouts for month 7, total of 1,510 checkouts for month 8, total of 1,421 checkouts for month 9, total of 1,464 checkouts for month 10, total of 1,448 checkouts for month 11, and total of 1,516 checkouts for month 12.
 
--Which month has the highest number of checkouts for the series?
+- Which month has the highest number of checkouts for the series?
 
 Month 12 aka December had the highest number of checkouts for the series with a total of 1,516 checkouts.
 
--Which month has the lowest number of checkouts for the series?
+- Which month has the lowest number of checkouts for the series?
 
 Month 2 aka February had the lowest number of checkouts for the series with a total of 1,318 checkouts. 
 
@@ -67,7 +67,7 @@ A possible limitation is that the data doesn't record checkouts made at other li
 
 ### First Trends Over Time Chart
 
--How many checkouts were there for each digital material type available for the Percy Jackson & the Olympian series from 2012-2022?
+- How many checkouts were there for each digital material type available for the Percy Jackson & the Olympian series from 2012-2022?
 ``````{r chart1.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8}
 source("chart1.R")
 chart1
@@ -78,7 +78,7 @@ This chart shows the number of Ebook and Audiobook checkouts for the Percy Jacks
 I chose to create this data visualization because for digital checkouts theres ebook or audiobook for the series and I was curious which material type had more checkouts. I thought that Ebook would have significantly more checkouts than audiobook because I thought that there would be more reading than listening and I was surprised how both had similar trends until post 2020, which is surprising still since they were really similar before. 
 
 ### Second Trends Over Time Chart
--How many checkouts were there for each book in the series from 2012-2022?
+- How many checkouts were there for each book in the series from 2012-2022?
 ``````{r chart2.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8}
 source("chart2.R")
 chart2
@@ -91,7 +91,7 @@ I chose to create this data visualization because I was interested in seeing whi
 
 
 ### Your Choice
--How many Ebook checkouts were there for the Percy Jackson & the Olympians series compared to the Kane Chronicles series from 2012-2022. 
+- How many Ebook checkouts were there for the Percy Jackson & the Olympians series compared to the Kane Chronicles series from 2012-2022?
 ``````{r chart3.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10}
 source("chart3.R")
 chart3
