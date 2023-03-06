@@ -1,4 +1,40 @@
 UsageClass,CheckoutType,MaterialType,CheckoutYear,CheckoutMonth,Checkouts,Title,ISBN,Creator,Subjects,Publisher,PublicationYear
+Digital,OverDrive,AUDIOBOOK,2012,1,4,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,1,6,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,1,8,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,EBOOK,2012,2,5,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,2,6,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,2,5,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,3,12,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,3,4,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,AUDIOBOOK,2012,3,4,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,4,2,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,4,4,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,4,7,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,5,6,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,5,10,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,5,5,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,6,5,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,EBOOK,2012,6,9,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,6,5,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,7,5,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,7,4,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,7,2,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,8,8,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,8,4,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,AUDIOBOOK,2012,8,3,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,9,5,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,EBOOK,2012,9,7,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,9,3,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,AUDIOBOOK,2012,10,4,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,AUDIOBOOK,2012,10,3,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,EBOOK,2012,10,10,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,11,3,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,AUDIOBOOK,2012,11,3,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,EBOOK,2012,11,10,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
+Digital,OverDrive,AUDIOBOOK,2012,12,2,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
+Digital,OverDrive,AUDIOBOOK,2012,12,2,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
+Digital,OverDrive,EBOOK,2012,12,6,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
 Digital,OverDrive,EBOOK,2013,1,7,"The Red Pyramid: The Kane Chronicles, Book 1",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
 Digital,OverDrive,AUDIOBOOK,2013,1,2,"The Throne of Fire: The Kane Chronicles, Book 2 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2011
 Digital,OverDrive,AUDIOBOOK,2013,1,3,"The Red Pyramid: The Kane Chronicles, Book 1 (unabridged) (Unabridged)",,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology","Brilliance Audio, Inc.",2010
@@ -380,6 +416,3 @@ Digital,OverDrive,EBOOK,2022,11,5,"The Throne of Fire: The Kane Chronicles, Book
 Digital,OverDrive,EBOOK,2022,12,5,"The Serpent's Shadow: The Kane Chronicles, Book 3",9781423163275,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2014
 Digital,OverDrive,EBOOK,2022,12,11,"The Red Pyramid: The Kane Chronicles, Book 1",9781423142492,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
 Digital,OverDrive,EBOOK,2022,12,6,"The Throne of Fire: The Kane Chronicles, Book 2",9781423154389,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2014
-Digital,OverDrive,EBOOK,2023,1,5,"The Throne of Fire: The Kane Chronicles, Book 2",9781423154389,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2014
-Digital,OverDrive,EBOOK,2023,1,4,"The Serpent's Shadow: The Kane Chronicles, Book 3",9781423163275,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2014
-Digital,OverDrive,EBOOK,2023,1,13,"The Red Pyramid: The Kane Chronicles, Book 1",9781423142492,Rick Riordan,"Fantasy, Juvenile Fiction, Mythology",Disney Digital Books,2011
