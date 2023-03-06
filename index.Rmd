@@ -5,76 +5,98 @@ output: html_document
 
 ### Introduction
 
-The dataset chosen analyzes checkouts made in the Seattle Public Library Systems of the Percy Jackson and the Olympian series by Rick Riordan from 2012-2022 and specifically digital checkouts of the books. This report will analyze the books published by Rick Riordan specifically the "Percy Jackson and the Olympians" series that he has written, the series which contains books 1-5. The report will examine and compare the material type checkouts of the series, compare each Ebook within the series and the number of checkouts for each, and lastly compare the total amount of checkouts of the series to the average amount of checkouts of the series.
+The dataset chosen analyzes checkouts made in the Seattle Public Library Systems of the Percy Jackson and the Olympian series by Rick Riordan from 2012-2022 since I want to analyze a full decade and exluded 2023 because the year hasn't ended and specifically digital checkouts of the books. This report will analyze the books published by Rick Riordan specifically the "Percy Jackson and the Olympians" series that he has written, the series which contains books 1-5. The report will examine and compare the material type checkouts of the series, compare each Ebook within the series and the number of checkouts for each, and lastly compare the series to another series by Rick Riordan. I chose this dataset because I love the percy Jackson and the olympians series and want to analyze the series. 
 
 ### Summary Information
 
-Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
-These will likely be calculated using your DPLYR skills, answering questions such as:
+- What is the total number of checkouts for the series per year?
 
-- What is the average number of checkouts for each item?
-- What is the month or year with the most/least checkouts for a book that you're interested in?
-- What is the month or year with the most/least checkouts for ebooks?
-- How has the number of print book checkouts changed over time?
+In 2012, there was a total of 550 checkouts for the whole series. In 2013, there was a total of 1,010 checkouts for the whole series. In 2014, there was a total of 1,240 checkouts for the whole series. In 2015, there was a total of 1,325 checkouts for the whole series. In 2016, there was a total of 1,321 checkouts for the whole series. In 2017, there was a total of 1,337 checkouts for the whole series. In 2018, there was a total of 1,438 checkouts for the whole series. In 2019, there was a total of 1,930 checkouts for the whole series. In 2020, there was a total of 2,570 checkouts for the whole series. In 2021, there was a total of 2,678 checkouts for the whole series. In 2022, there was a total of 1,905 checkouts for the whole series.
 
-Feel free to calculate and report values that you find relevant.
+- What year had the highest number of checkouts for the series?
+
+The year with the highest number of checkouts for the series is 2021 with a total of 2,678 checkouts.
+
+- What year had the lowest number of checkouts for the series?
+
+The year with the lowest number of checkouts for the series is 2012 with a total of 550 checkouts.
+
+- What is the average number of checkouts for each book within the series? 
+
+For book 1: the lightning thief the average amount of checkouts is 23, for book 2: the sea of monsters the average amount of checkouts is 14, for book 3: the titan's curse the average amount of checkouts is 11, for book 4: the battle of labyrinth the average amount of checkouts is 9, and book 5: the last olympian has an average of 11 checkouts. 
+
+-What is the total number of checkouts for the series per month?
+
+There was a total of 1,464 checkouts for month 1, total of 1,318 checkouts for month 2, total of 1,363 checkouts for month 3, total of 1,363 checkouts for month 4, total of 1,491 checkouts for month 5, total of 1,476 checkouts for month 6, total of 1,470 checkouts for month 7, total of 1,510 checkouts for month 8, total of 1,421 checkouts for month 9, total of 1,464 checkouts for month 10, total of 1,448 checkouts for month 11, and total of 1,516 checkouts for month 12.
+
+-Which month has the highest number of checkouts for the series?
+
+Month 12 aka December had the highest number of checkouts for the series with a total of 1,516 checkouts.
+
+-Which month has the lowest number of checkouts for the series?
+
+Month 2 aka February had the lowest number of checkouts for the series with a total of 1,318 checkouts. 
+
 
 ### The Dataset
 
 - Who collected/published the data?  
+
+The data was collected and published by the Seattle Public Library Open data and was last updated recently February 6th, 2023.
+
 - What are the parameters of the data (dates, number of checkouts, kinds of books, etc.)?
-- How was the data collected or generated?  
-- Why was the data collected?  
+
+There are several parameters for the data. Parameters include UsageClass, CheckoutType, MaterialType, CheckoutYear, CheckoutMonth, Checkouts, Title, ISBN, Creator, Subjects, Publisher and publication year. UsageClass determines if the book is physical or digital, CheckoutType refers to which system was used for the checkout, MaterialType refers to the book type such as book, ebook, audiobook, etc. 
+
+- How was the data collected or generated? 
+
+The data was generated by Seattle open data and they collected the data from the seattle public library, the dataset owner is seattle public library since the data is provided by them. They collect digital checkouts from vendors such as Overdrive, hoopla, freegal, and RGDigital usage data. They collect physical checkouts from sources like Legrady artwork data archives and Horizon ILS. 
+
+- Why was the data collected? 
+
+The data was collected to understand which books were checked out and to keep a record of how many books were checked out from seattle public libraries. Seattle open data collcts data from all different topics surrounding seattle, and they probably collected this data to understand book checkouts from the seattle public library system.
+
 - What, if any, ethical questions do you need to consider when working with this data?  
+
+If in the future, they were to include checkout id number or any personal information then that would be ethically concerning, also since people don't know that there checkouts are being reported then that would be ethically concerning, but besides that the data doesn't reveal any personal information to the public.
+
 - What are possible limitations or problems with this data?   (at least 200 words)
 
+A possible limitation is that the data doesn't record checkouts made at other libraries, it only accounts and records checkouts made at libraries in the Seattle Public Library system, it would be better to analyze all libraries in the seattle area if the website is titled seattle open data and it would also be cool to collect data from different cities in Washington;. Another limitation could be that the data is only updated on the 6th day of every month so it isn't updated daily rather monthly. Another limitation of the dataset is the it only counts the initial checkout so if a physical item were to get renewed then the checkout for that item wouldn't be counted in the system, that's a big limitation because a book can get renewed in another year and checkouts for that same book aren't recorded because it was renewed. Another limitation of the data is that the filtering system to make your own dataset is pretty bad since the title system sometimes mixes up graphic novel etc of a book series making it where the user has to be extra specific when making their own dataset, like when I made my dataset I had to include whether or not it was book 1 or just the title, and had to include both because some titles were switched around. 
 
 ### First Trends Over Time Chart
 
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
+-How many checkouts were there for each digital material type available for the Percy Jackson & the Olympian series from 2012-2022?
 ``````{r chart1.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8}
 source("chart1.R")
 chart1
 ``````
 
+This chart shows the number of Ebook and Audiobook checkouts for the Percy Jackson & the Olympians series between the years 2012-2022. The chart reveals that EBook and Audiobook checkouts for the series are fairly similar until after 2020 where we see a large increase for ebook checkouts and a major decrease for audiobook checkouts. However, it seems as if 2022 there was a major decline for ebook checkouts and a slight increase for audiobook checkouts. Overall, the trends for both seem to be similar until post 2020. 
+
+I chose to create this data visualization because for digital checkouts theres ebook or audiobook for the series and I was curious which material type had more checkouts. I thought that Ebook would have significantly more checkouts than audiobook because I thought that there would be more reading than listening and I was surprised how both had similar trends until post 2020, which is surprising still since they were really similar before. 
+
 ### Second Trends Over Time Chart
-
-Include a chart. Make sure to describe why you included the chart, and what patterns emerged
-
-The second chart that you will create and include will show another trend over time of your variable/topic/interest. Think carefully about what you want to communicate to your user (you may have to find relevant trends in the dataset first!). Here are some requirements to help guide your design:
-
-- Show more than one, but fewer than ~10 trends
-  - For example, two books, or 5 different mediums
-- You must have clear x and y axis labels
-- The chart needs a clear title 
-- You need a legend for your different line colors and a clear - legend title
-In your .Rmd file, make sure to describe why you included the chart, and what patterns emerged
-
-When we say "clear" or "human readable" titles and labels, that means that you should not just display the variable name.
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
+-How many checkouts were there for each book in the series from 2012-2033?
 ``````{r chart2.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 8}
 source("chart2.R")
 chart2
 ``````
 
+This chart shows the number of checkouts for each of the five books in the Percy Jackson & the Olympians series from years 2012-2022. Each of the 5 books have a similar shape and trend with The lightning thief book 1 having the most checkouts. It seems as if people read book 1 and are unlikely to read the next books because for each book after one another decreases in the number of checkouts. The titan's curse book 3 having started in 2019 could be explained by the renewal of the book in the system and availability. 
+
+I chose to create this data visualization because I was interested in seeing which book was the most popular in the series and also interested in seeing the trends for each book and the series and checkouts differ from one another. I was surprised by how many checkouts book 1 had compared to the others and how they have basically the same pattern and trend. I was also surprised by how the number of checkouts for each book kept decreasing which probably means that people are unlikely to continue reading the series after book 1. 
+
+
+
 ### Your Choice
-
-The last chart is up to you. It could be a line plot, scatter plot, histogram, bar plot, stacked bar plot, and more. Here are some requirements to help guide your design:
-
-- You must have clear x and y axis labels
-- The chart needs a clear title 
-- You need a legend for your different line colors and a clear legend title
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
+-How many Ebook checkouts were there for the Percy Jackson & the Olympians series compared to the Kane Chronicles series from 2012-2022. 
 ``````{r chart3.R, echo = FALSE, warning = FALSE, message = FALSE, fig.width = 10}
 source("chart3.R")
 chart3
 ``````
 
+This chart shows the number of Ebook checkouts for the Percy Jackson & the Olympians series and the Kane Chronicles. The chart reveals that there is a big difference in checkouts between both series and that the Percy Jackson & the Olympians series had significantly more Ebook checkouts than the Kane Chronicles series. 
+
+I chose to create this data visualization because I was curious which series had more ebook checkouts. I wanted to know which series was more popular since I always loved Percy Jackson the book series and searched up the most famous book series and kane chronicles popped up with percy jackson series. I was surprised by how significant the difference is, considering that the Kane Chronicles is also a famous series, I didn't expect for the Percy Jackson & the Olympians series to have about as many as 2x ebook checkouts compared to the Kane Chronicles. 
